@@ -1,0 +1,43 @@
+/* General setup */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap");
+
+:root {
+  --default-font: "Poppins", sans-serif;
+  --primary-color: #2374ee;
+}
+
+html {
+  font-family: var(--default-font);
+}
+
+a {
+  text-decoration: none;
+}
+button {
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 1rem 5rem;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-text {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+nav{
+    display: flex;
+    gap: 1rem;
+}
